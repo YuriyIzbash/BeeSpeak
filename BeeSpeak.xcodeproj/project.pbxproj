@@ -10,9 +10,22 @@
 		5B62D3882ED4FEB300CC3050 /* BeeSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B62D3CC2ED503B900CC3050 /* Exceptions for "BeeSpeak" folder in "BeeSpeak" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5B62D3872ED4FEB300CC3050 /* BeeSpeak */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5B62D38A2ED4FEB300CC3050 /* BeeSpeak */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B62D3CC2ED503B900CC3050 /* Exceptions for "BeeSpeak" folder in "BeeSpeak" target */,
+			);
 			path = BeeSpeak;
 			sourceTree = "<group>";
 		};

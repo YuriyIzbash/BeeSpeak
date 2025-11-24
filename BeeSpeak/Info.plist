@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>BeeSpeak needs microphone access to record voice notes and commands during hive inspections. This allows you to use Pocket Inspection Mode hands-free.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>BeeSpeak needs camera access to capture photos during hive inspections and to scan QR codes for quick hive identification.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>BeeSpeak needs photo library access to select photos to attach to hive inspections.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>BeeSpeak needs permission to save photos to your photo library.</string>
+	<key>UISupportsDocumentBrowser</key>
+	<false/>
+</dict>
+</plist>
+

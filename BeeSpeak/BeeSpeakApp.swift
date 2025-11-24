@@ -12,7 +12,11 @@ import SwiftData
 struct BeeSpeakApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Apiary.self,
+            Hive.self,
+            Inspection.self,
+            Treatment.self,
+            Harvest.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +29,7 @@ struct BeeSpeakApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
         .modelContainer(sharedModelContainer)
     }
